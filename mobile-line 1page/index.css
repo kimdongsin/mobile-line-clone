@@ -76,12 +76,22 @@
 .main__header__profile{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 0px 10px;
+}
+
+.header__profile__text{
+    margin-right: 70px;
+}
+
+.mar{
+    padding-right: 50px;
 }
 
 .interval{
     border-bottom: 1px solid #e1dbdb;
-    margin-bottom: 15px;
-    padding: 0px 10px 10px;
+    padding-bottom:10px;
+    
 }
 
 
@@ -92,4 +102,5 @@
 
 .border{
     border-top: 1px solid #e1dbdb;
+    padding-top: 10px;
 }
