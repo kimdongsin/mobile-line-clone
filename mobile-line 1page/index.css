@@ -1,0 +1,36 @@
+.header{
+    background-color: navy;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rebeccapurple;
+}
+
+.header__main{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding:10px 5px;
+}
+
+.header__main__menu{
+    display: flex;
+}
+
+.main__menu__icon:not(:last-child){
+    margin-right: 20px;
+}
+
+.main__menu__icon:nth-child(2){
+    margin-right: 25px;
+}
+
+.header__footer{
+    display: flex;
+    font-size: 40px;
+    justify-content:space-around;
+}
