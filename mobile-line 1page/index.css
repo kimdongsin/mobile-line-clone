@@ -59,7 +59,27 @@
 .main__header__friend{
     display: flex;
     justify-content: space-between;
-    margin: 10px 10px 0px;
+    margin: 10px 10px 15px;
     font-size: 12px;
     color: gray;
+}
+
+.header__profile__img{
+    background-image: url(profile.jpg);
+    border-radius: 100%;
+    background-position: center center;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+}
+
+.main__header__profile{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.main__header__profile div:not(:first-child){
+    display: flex;
+    align-items: center;
 }
