@@ -76,10 +76,14 @@
 .main__header__profile{
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid #e1dbdb;
-    padding-bottom: 10px;
-    margin-bottom: 15px;
 }
+
+.interval{
+    border-bottom: 1px solid #e1dbdb;
+    margin-bottom: 15px;
+    padding: 0px 10px 10px;
+}
+
 
 .main__header__profile div:not(:first-child){
     display: flex;
