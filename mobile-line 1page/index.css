@@ -104,3 +104,7 @@
     border-top: 1px solid #e1dbdb;
     padding-top: 10px;
 }
+
+.header__profile__arrow{
+    color: gray;
+}
