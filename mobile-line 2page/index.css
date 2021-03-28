@@ -47,3 +47,31 @@
 .header__main__text{
     margin-left: 10px;
 }
+
+.main__icon{
+    margin-top: 20px;
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main__icon__set{
+    width: 80px;
+}
+
+.icon__set__fontsize{
+    margin-top: 5px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.icon__set__proflie{
+    border-radius: 100%;
+    background-image: url(profile.jpg);
+    width: 40px;
+    height: 40px;
+    background-position: center center;
+    background-size: cover;
+    margin-left: 20px;
+}
