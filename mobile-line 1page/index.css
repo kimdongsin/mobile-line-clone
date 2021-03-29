@@ -96,6 +96,12 @@
 }
 
 
+.header__profile__box{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
 .main__header__profile div:not(:first-child){
     display: flex;
     align-items: center;
