@@ -1,5 +1,5 @@
 .header{
-    background-color: navy;
+    background:linear-gradient(90deg, #141e30 0%,#243b55 100% );
     color: white;
     padding-bottom: 10px;
 }
@@ -7,15 +7,15 @@
 .header__nav{
     display: flex;
     justify-content: space-between;
-    background-color: rebeccapurple;
+    background:linear-gradient(90deg, #0f0c29 0%,#302b63 50%,#24243e 100% );
     padding: 5px;
 }
 
 .header__main{
     display: flex;
     justify-content: space-between;
-    font-size: 20px;
-    padding:10px 5px;
+    font-size: 15px;
+    padding:15px 5px;
     margin-left: 10px;
 }
 
@@ -38,9 +38,9 @@
 
 .header__footer{
     display: flex;
-    font-size: 40px;
+    font-size: 25px;
     justify-content:space-around;
-    padding-top:20px;
+    padding-top:12px;
 }
 
 .one{
