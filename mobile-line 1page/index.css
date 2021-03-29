@@ -88,6 +88,11 @@
 
 .header__profile__text{
     margin-right: 70px;
+    margin-left: 15px;
+}
+
+.header__profile__text > span{
+    margin-right: 10px;
 }
 
 .mar{
@@ -96,7 +101,7 @@
 
 .header__profile__box{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
 }
 
@@ -109,8 +114,10 @@
     border-top: 1px solid #e1dbdb;
     padding-top: 10px;
     margin-left: 10px;
+    width: 100%;
 }
 
 .header__profile__arrow{
     color: gray;
+    margin-left: 10px;
 }
